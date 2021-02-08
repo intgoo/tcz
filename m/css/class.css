@@ -1,0 +1,16 @@
+.classlist{ -webkit-box-flex:1; -webkit-flex:1; -moz-box-flex:1; -ms-flex:1; flex:1}
+.classlist .classview{width:1.63rem;height:100vh;overflow-x:hidden;overflow-y:scroll;}
+.classlist .classview .classitem{display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;height:0.9rem;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;font-size:0.27rem; color:#444444; text-decoration:none}
+.classlist .classview #active{background-color:#F2F2F2; border-left:#FF4E15 2px solid}
+
+.classlist .listview{height:100vh;-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;overflow-x:hidden;overflow-y:scroll; background-color:#F2F2F2; padding:0 10px}
+.classlist .listview .itemtitle{ font-size:0.27rem; color:#444444; line-height:0.9rem}
+.classlist .listview .listcontent{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;background-color:white; -webkit-border-radius:0.27rem; -moz-border-radius:0.27rem; border-radius:0.27rem;}
+.classlist .listview .listcontent .listitem{ width:33.333%;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center; padding:0.18rem 0;text-decoration:none; display:block; text-align:center}
+.classlist .listview .listcontent .listitem .ico{ width:70%;-webkit-border-radius:500px;-moz-border-radius:500px;border-radius:500px;}
+.classlist .listview .listcontent .listitem .title{font-size:0.24rem; color:#666; text-align:center; padding:0.09rem 0;}
+
+.classlist .listview .listcontent2{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;background-color:white; -webkit-border-radius:0.27rem; -moz-border-radius:0.27rem; border-radius:0.27rem;}
+.classlist .listview .listcontent2 .listitem{ width:50%;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center; padding:0.18rem 0;text-decoration:none; display:block; text-align:center}
+.classlist .listview .listcontent2 .listitem .ico{ width:70%;-webkit-border-radius:500px;-moz-border-radius:500px;border-radius:500px;}
+.classlist .listview .listcontent2 .listitem .title{font-size:0.24rem; color:#666; text-align:center; padding:0.09rem 0;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
